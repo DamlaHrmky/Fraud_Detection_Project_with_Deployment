@@ -1,0 +1,8 @@
+1. conda create -n fraud_env python=3.9
+2. conda activate fraud_env1
+3. pip install uv
+4. uv pip compile requirements.in
+5. uv pip compile requirements.in > requirements.txt
+6. uv pip install -r requirements.txt
+7. conda install jupyter ipykernel
+8. python -m ipykernel install --user --name=fraud_env1 --display-name "Python (fraud_env1)"
